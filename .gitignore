@@ -1,0 +1,9 @@
+# git ingore pychache
+git ingore *.pyc
+git ingore *.pyo
+
+# git ignore __pycache__
+git ingore __pycache__
+
+# git ignore __MACOSX
+git ingore __MACOSX

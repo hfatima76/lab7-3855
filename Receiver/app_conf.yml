@@ -1,0 +1,12 @@
+version: 1
+# not using the external ports anymore since they are in the same netowrk no need for external hosts
+# buy:
+#   url: http://localhost:8090/buy
+# sell:
+#   url: http://localhost:8090/sell
+# configuration for two endpoints
+events:
+  hostname: kafka
+  # change the hostname to kafka
+  port: 9092
+  topic: events

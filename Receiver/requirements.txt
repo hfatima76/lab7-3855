@@ -1,0 +1,7 @@
+connexion
+swagger-ui-bundle
+datetime
+SQLAlchemy
+mysql-connector-python
+pymysql
+pykafka
