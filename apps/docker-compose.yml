@@ -16,6 +16,14 @@ services:  # storage
     networks:
       - network1
 
+  # processing
+  processing:
+    image: processing
+    ports:
+      - 8100:8100
+    networks:
+      - network1
+
 
 networks:
   network1: 

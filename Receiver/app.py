@@ -68,6 +68,11 @@ def sell(body):
     return NoContent, 201
 
 
+def health():
+    msg = "Sucessfull"
+    return msg, 200
+
+
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 

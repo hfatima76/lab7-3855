@@ -111,6 +111,11 @@ def process_messages():
     # Endpoints
 
 
+def health():
+    msg = "Sucessfull"
+    return msg, 200
+
+
 def buy(body):
     # TODO: copy over code from previous version of storage
     # TODO create a session
